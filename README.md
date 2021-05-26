@@ -1,2 +1,20 @@
 ### sph2wav_Speech
-SPHERE (SPeech HEader Resources) is a file format defined by NIST (National Institute of Standards and Technology) and is used with speech audio. SoX can read these files when they contain μ-law and PCM data. It will ignore any header information that says the data is compressed using shorten compression and will treat the data as either μ-law or PCM. This will allow SoX and the command line shorten program to be run together using pipes to encompasses the data and then pass the result to SoX for processing.
+# sph2wav
+A Simple Python file to bulk convert .sph files in a folder to .wav format
+
+
+# How to Convert ?
+
+  pip3 install sphfile
+
+  python3 sph2wav.py
+
+
+Note:
+Set your path of the folder containing .sph files to bulk convert in sph2wav.py(python) file
+
+# Next Steps
+
+   1. .wav file conversion for files available in multiple sub directories
+   2. A New File explorer GUI to quickly convert between file formats
+
